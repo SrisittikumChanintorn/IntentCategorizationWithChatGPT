@@ -40,33 +40,31 @@ While this approach slightly increases inference costs (by making an additional 
 - **Domain-Specific Handlers**: Separate functions for healthcare, legal, education, and other queries
 - **Chat Loop**: Simple command-line interface for user interaction
 
-## Installation and Usage 🚀
+  
+## Setup 🛠️
 
-### Setup 🛠️ 
 1. Clone this project to your repository:
 
-### Create Virtual Environment (optional but recommended)
-```bash
-python -m venv venv
-```
+2. Create Virtual Environment (optional but recommended)
 
-2. Activate Virtual Environment (venv) 📦 
+3. Activate Virtual Environment (venv) or Select Python Interpreture 📦 
    
 ```bash
-source venv/bin/activate  # On MacOS use this
-venv\Scripts\activate     # On Windows use this 
+source venv/bin/activate  # On MacOS use this with CMD
+venv\Scripts\activate     # On Windows use this with CMD
 ```
 
-3. Install dependencies ⬇️
+4. Install dependencies ⬇️
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Configure API key 🔑
+5. Configure API key 🔑
    
-#### Edit `main.py` with your API key
+###### Edit `main.py` with your API key
 
-5. Run the analysis ▶️
+6. Run the analysis ▶️
+
 ```bash
 python main.py
 ```
